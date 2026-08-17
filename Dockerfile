@@ -1,4 +1,4 @@
-FROM casbin/casdoor:v2.x.x
+FROM casbin/casdoor:3.125.0
 
 USER root
 
