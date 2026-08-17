@@ -1,0 +1,12 @@
+# Secret files - NEVER commit these
+.env
+*.env.local
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+
+# Never commit a filled-in app.conf with real passwords
+# app.conf in this repo must only contain ${PLACEHOLDER} values

@@ -1,0 +1,12 @@
+{
+  "build": {
+    "type": "dockerfile"
+  },
+  "ports": [
+    {
+      "id": "web",
+      "port": 8000,
+      "type": "HTTP"
+    }
+  ]
+}
