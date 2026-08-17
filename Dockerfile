@@ -1,12 +1,12 @@
-# Casdoor SSO - Production image for Zeabur
+# Casdoor SSO - Production image for Render
 FROM casbin/casdoor:latest
 
 # Copy config template
 COPY app.conf /conf/app.conf
 
-# Copy entrypoint that injects env vars into app.conf
-COPY entrypoint.sh /entrypoint.sh
-RUN chmod +x /entrypoint.sh
+# Copy entrypoint with executable permission set at copy time
+# (base image is distroless so chmod command is unavailable)
+COPY --chmod=755 entrypoint.sh /entrypoint.sh
 
 EXPOSE 8000
 

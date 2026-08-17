@@ -74,7 +74,7 @@ git push -u origin main
 
    | Key | Value |
    |-----|-------|
-   | `DB_CONNECTION_STRING` | `user=neondb_owner password=XXX host=ep-xxx.neon.tech port=5432 dbname=neondb sslmode=require` |
+   | `DB_CONNECTION_STRING` | `user= password= host=ep-damp-hall-b3tuk8f4-pooler.c-4.ap-southeast-1.aws.neon.tech port=5432 dbname=neondb sslmode=require` |
    | `CASDOOR_ORIGIN` | `https://your-app.koyeb.app` ← update after step 7 |
 
 7. Click **Deploy** → wait ~2 mins
