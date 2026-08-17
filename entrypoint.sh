@@ -28,4 +28,4 @@ echo "✅ Config injected successfully"
 echo "🌐 Origin: ${CASDOOR_ORIGIN}"
 
 # Start Casdoor
-exec /casdoor/server --conf /conf/app.conf
+exec /server --conf /conf/app.conf
